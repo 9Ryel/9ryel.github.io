@@ -1,0 +1,68 @@
+{
+  "properties": {
+    "request": {
+      "properties": {
+        "inDialog": {
+          "type": "boolean"
+        },
+        "intent": {
+          "properties": {
+            "name": {
+              "type": "string",
+              "x-ms-summary": "Intent Name"
+            }
+          },
+          "type": "object"
+        },
+        "locale": {
+          "type": "string"
+        },
+        "requestId": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "session": {
+      "properties": {
+        "application": {
+          "properties": {
+            "applicationId": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        "attributes": {
+          "properties": {},
+          "type": "object"
+        },
+        "new": {
+          "type": "boolean"
+        },
+        "sessionId": {
+          "type": "string"
+        },
+        "user": {
+          "properties": {
+            "userId": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        }
+      },
+      "type": "object"
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "type": "object"
+}
